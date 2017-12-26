@@ -12,6 +12,7 @@
 		90A1561D1D10DA3700F0780F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90A1561B1D10DA3700F0780F /* Main.storyboard */; };
 		90A1561F1D10DA3700F0780F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90A1561E1D10DA3700F0780F /* Assets.xcassets */; };
 		90A156221D10DA3700F0780F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90A156201D10DA3700F0780F /* LaunchScreen.storyboard */; };
+		90A1562C1D1372DC00F0780F /* button.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 90A1562B1D1372DC00F0780F /* button.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		90A1561E1D10DA3700F0780F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90A156211D10DA3700F0780F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		90A156231D10DA3700F0780F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90A1562B1D1372DC00F0780F /* button.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = button.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				90A156171D10DA3700F0780F /* AppDelegate.swift */,
 				90A156191D10DA3700F0780F /* ViewController.swift */,
 				90A1561B1D10DA3700F0780F /* Main.storyboard */,
+				90A1562B1D1372DC00F0780F /* button.mp3 */,
 				90A1561E1D10DA3700F0780F /* Assets.xcassets */,
 				90A156201D10DA3700F0780F /* LaunchScreen.storyboard */,
 				90A156231D10DA3700F0780F /* Info.plist */,
@@ -96,6 +99,7 @@
 				TargetAttributes = {
 					90A156131D10DA3700F0780F = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0810;
 					};
 				};
 			};
@@ -123,6 +127,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				90A156221D10DA3700F0780F /* LaunchScreen.storyboard in Resources */,
+				90A1562C1D1372DC00F0780F /* button.mp3 in Resources */,
 				90A1561F1D10DA3700F0780F /* Assets.xcassets in Resources */,
 				90A1561D1D10DA3700F0780F /* Main.storyboard in Resources */,
 			);
@@ -253,6 +258,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.NarayanProduction.memorygame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -264,6 +270,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.NarayanProduction.memorygame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -286,6 +293,7 @@
 				90A156281D10DA3700F0780F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
